@@ -1,0 +1,22 @@
+{
+  "name": "QueueBuddy Bengaluru",
+  "short_name": "QueueBuddy",
+  "description": "Book a verified Queue Buddy at government offices in Bengaluru. Arrive when your turn is near.",
+  "id": "/",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#06080D",
+  "theme_color": "#06080D",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "My queues", "url": "/app?tab=queues" },
+    { "name": "Buddy cockpit", "url": "/buddy" }
+  ]
+}
